@@ -16,6 +16,6 @@ namespace simpl_ToDoList.Data.Entity
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Email { get; set; }
-        public ICollection<Task> Tasks { get; set; } = new List<Task>();
+        public ICollection<Tache> taches { get; set; } = new List<Tache>();
     }
 }
