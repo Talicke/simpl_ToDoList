@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{D2289E17-CEBF-40A1-ACB1-AA7CD2CEB819}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{2DB536E1-7F59-4188-BA12-79A344D2E089}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{7DD25D95-02E0-4983-AEC3-21B35314FF0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "simpl_ToDoList.api", "Application\simpl_ToDoList.api\simpl_ToDoList.api.csproj", "{5567A2D1-20C3-41F6-A96C-409EE3101C99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "simpl_ToDoList.Data.Entity", "Data\simpl_ToDoList.Data.Entity\simpl_ToDoList.Data.Entity.csproj", "{51A38F4A-ED33-4F96-BAF2-001772B5DED1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5567A2D1-20C3-41F6-A96C-409EE3101C99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5567A2D1-20C3-41F6-A96C-409EE3101C99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5567A2D1-20C3-41F6-A96C-409EE3101C99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5567A2D1-20C3-41F6-A96C-409EE3101C99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51A38F4A-ED33-4F96-BAF2-001772B5DED1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51A38F4A-ED33-4F96-BAF2-001772B5DED1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51A38F4A-ED33-4F96-BAF2-001772B5DED1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51A38F4A-ED33-4F96-BAF2-001772B5DED1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5567A2D1-20C3-41F6-A96C-409EE3101C99} = {7DD25D95-02E0-4983-AEC3-21B35314FF0A}
+		{51A38F4A-ED33-4F96-BAF2-001772B5DED1} = {D2289E17-CEBF-40A1-ACB1-AA7CD2CEB819}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EEE66267-ED4C-497F-AE10-B48A1ED7112B}
+	EndGlobalSection
+EndGlobal
