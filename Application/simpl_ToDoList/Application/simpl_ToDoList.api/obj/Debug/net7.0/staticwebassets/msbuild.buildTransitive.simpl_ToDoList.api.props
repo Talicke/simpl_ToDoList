@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\simpl_ToDoList.api.props" />
+</Project>

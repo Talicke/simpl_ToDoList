@@ -1,0 +1,14 @@
+C:\Users\Taliq\OneDrive\Documents\Cours\Simplon\Brief\Simpl_ToDoList\Application\simpl_ToDoList\Data\simpl_ToDoList.Data.Entity\bin\Debug\net7.0\simpl_ToDoList.Data.Entity.deps.json
+C:\Users\Taliq\OneDrive\Documents\Cours\Simplon\Brief\Simpl_ToDoList\Application\simpl_ToDoList\Data\simpl_ToDoList.Data.Entity\bin\Debug\net7.0\simpl_ToDoList.Data.Entity.runtimeconfig.json
+C:\Users\Taliq\OneDrive\Documents\Cours\Simplon\Brief\Simpl_ToDoList\Application\simpl_ToDoList\Data\simpl_ToDoList.Data.Entity\bin\Debug\net7.0\simpl_ToDoList.Data.Entity.dll
+C:\Users\Taliq\OneDrive\Documents\Cours\Simplon\Brief\Simpl_ToDoList\Application\simpl_ToDoList\Data\simpl_ToDoList.Data.Entity\bin\Debug\net7.0\simpl_ToDoList.Data.Entity.pdb
+C:\Users\Taliq\OneDrive\Documents\Cours\Simplon\Brief\Simpl_ToDoList\Application\simpl_ToDoList\Data\simpl_ToDoList.Data.Entity\obj\Debug\net7.0\simpl_ToDoList.Data.Entity.csproj.AssemblyReference.cache
+C:\Users\Taliq\OneDrive\Documents\Cours\Simplon\Brief\Simpl_ToDoList\Application\simpl_ToDoList\Data\simpl_ToDoList.Data.Entity\obj\Debug\net7.0\simpl_ToDoList.Data.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Taliq\OneDrive\Documents\Cours\Simplon\Brief\Simpl_ToDoList\Application\simpl_ToDoList\Data\simpl_ToDoList.Data.Entity\obj\Debug\net7.0\simpl_ToDoList.Data.Entity.AssemblyInfoInputs.cache
+C:\Users\Taliq\OneDrive\Documents\Cours\Simplon\Brief\Simpl_ToDoList\Application\simpl_ToDoList\Data\simpl_ToDoList.Data.Entity\obj\Debug\net7.0\simpl_ToDoList.Data.Entity.AssemblyInfo.cs
+C:\Users\Taliq\OneDrive\Documents\Cours\Simplon\Brief\Simpl_ToDoList\Application\simpl_ToDoList\Data\simpl_ToDoList.Data.Entity\obj\Debug\net7.0\simpl_ToDoList.Data.Entity.csproj.CoreCompileInputs.cache
+C:\Users\Taliq\OneDrive\Documents\Cours\Simplon\Brief\Simpl_ToDoList\Application\simpl_ToDoList\Data\simpl_ToDoList.Data.Entity\obj\Debug\net7.0\simpl_ToDoList.Data.Entity.dll
+C:\Users\Taliq\OneDrive\Documents\Cours\Simplon\Brief\Simpl_ToDoList\Application\simpl_ToDoList\Data\simpl_ToDoList.Data.Entity\obj\Debug\net7.0\refint\simpl_ToDoList.Data.Entity.dll
+C:\Users\Taliq\OneDrive\Documents\Cours\Simplon\Brief\Simpl_ToDoList\Application\simpl_ToDoList\Data\simpl_ToDoList.Data.Entity\obj\Debug\net7.0\simpl_ToDoList.Data.Entity.pdb
+C:\Users\Taliq\OneDrive\Documents\Cours\Simplon\Brief\Simpl_ToDoList\Application\simpl_ToDoList\Data\simpl_ToDoList.Data.Entity\obj\Debug\net7.0\simpl_ToDoList.Data.Entity.genruntimeconfig.cache
+C:\Users\Taliq\OneDrive\Documents\Cours\Simplon\Brief\Simpl_ToDoList\Application\simpl_ToDoList\Data\simpl_ToDoList.Data.Entity\obj\Debug\net7.0\ref\simpl_ToDoList.Data.Entity.dll

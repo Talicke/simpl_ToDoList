@@ -15,7 +15,7 @@ namespace simpl_ToDoList.Data.Entity
         public int idStatus { get; set; }
         public string Value { get; set; }
 
-        public ICollection<Task> Tasks { get; set; } = new List<Task>();
+        public ICollection<Tache> taches { get; set; } = new List<Tache>();
 
     }
 }

@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using simpl_ToDoList.Data.Entity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,7 +22,7 @@ namespace simpl_ToDoListe.Data.Context
         }
 
         public virtual DbSet<User> Users { get; set; }
-        public virtual DbSet<Task> Tasks { get; set; }
-        public virtual à_ èuuOo!l
-PI%    }
+        public virtual DbSet<Tache> Taches { get; set; }
+        public virtual DbSet<Status> Statuss { get; set; }
+    }
 }
