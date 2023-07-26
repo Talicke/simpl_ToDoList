@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Simpl_ToDoList.Data.Context.Contrat
+namespace simpl_ToDoList.Data.Context.Contrat
 {
     public interface Isimpl_ToDoListDBContect : IDbContext
     {

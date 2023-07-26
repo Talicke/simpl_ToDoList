@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OC9v0sOfv3DLKNgZszGPEWYz5lF6z3/J9tsdwKjZUKXN2KD5uAjhcgBADhUrvPxMv8fwYCWA0lwSl4g1A3WsDA==",
+  "dgSpecHash": "h1Vwolq45iRV6GPvQipVpgm/Ccd6WPj2XI4UGRoHB/hMGKWHq+MdREoiiy6zOh6zNeIb8+3un01iSKGUtivAoA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rasol\\OneDrive\\Documents\\CDA_DEVOPS\\BRIEFS\\BRIEF_6\\simpl_ToDoList\\Application\\simpl_ToDoList\\Data\\Simpl_ToDoList.Data.Repository\\Simpl_ToDoList.Data.Repository.csproj",
+  "projectFilePath": "C:\\Users\\Rasol\\OneDrive\\Documents\\CDA_DEVOPS\\BRIEFS\\BRIEF_6\\simpl_ToDoList\\Application\\simpl_ToDoList\\Data\\Simpl_ToDoList.Data.Repository\\simpl_ToDoList.Data.Repository.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

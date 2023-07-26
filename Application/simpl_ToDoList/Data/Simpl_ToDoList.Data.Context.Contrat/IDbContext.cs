@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Simpl_ToDoList.Data.Context.Contrat
+namespace simpl_ToDoList.Data.Context.Contrat
 {
     public interface IDbContext
     {
@@ -20,5 +20,6 @@ namespace Simpl_ToDoList.Data.Context.Contrat
         DbSet<TEntity> Set<TEntity>() where TEntity : class;
         EntityEntry<TEntity> Entry<TEntity>([NotNull] TEntity entity) where TEntity : class;
         EntityEntry<TEntity> Attach<TEntity>([NotNull] TEntity entity) where TEntity : class;
+
     }
 }

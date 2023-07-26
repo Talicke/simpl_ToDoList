@@ -489,7 +489,7 @@
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
       },
-      "Simpl_ToDoList.Data.Context.Contrat/1.0.0": {
+      "simpl_ToDoList.Data.Context.Contrat/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
@@ -497,10 +497,10 @@
           "simpl_ToDoList.Data.Entity": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Simpl_ToDoList.Data.Context.Contrat.dll": {}
+          "bin/placeholder/simpl_ToDoList.Data.Context.Contrat.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Simpl_ToDoList.Data.Context.Contrat.dll": {}
+          "bin/placeholder/simpl_ToDoList.Data.Context.Contrat.dll": {}
         }
       },
       "simpl_ToDoList.Data.Entity/1.0.0": {
@@ -521,7 +521,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Simpl_ToDoList.Data.Context.Contrat": "1.0.0",
+          "simpl_ToDoList.Data.Context.Contrat": "1.0.0",
           "simpl_ToDoList.Data.Entity": "1.0.0"
         },
         "compile": {
@@ -1476,10 +1476,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Simpl_ToDoList.Data.Context.Contrat/1.0.0": {
+    "simpl_ToDoList.Data.Context.Contrat/1.0.0": {
       "type": "project",
-      "path": "../../Data/Simpl_ToDoList.Data.Context.Contrat/Simpl_ToDoList.Data.Context.Contrat.csproj",
-      "msbuildProject": "../../Data/Simpl_ToDoList.Data.Context.Contrat/Simpl_ToDoList.Data.Context.Contrat.csproj"
+      "path": "../../Data/Simpl_ToDoList.Data.Context.Contrat/simpl_ToDoList.Data.Context.Contrat.csproj",
+      "msbuildProject": "../../Data/Simpl_ToDoList.Data.Context.Contrat/simpl_ToDoList.Data.Context.Contrat.csproj"
     },
     "simpl_ToDoList.Data.Entity/1.0.0": {
       "type": "project",

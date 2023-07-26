@@ -88,12 +88,12 @@
         }
       }
     },
-    "C:\\Users\\Rasol\\OneDrive\\Documents\\CDA_DEVOPS\\BRIEFS\\BRIEF_6\\simpl_ToDoList\\Application\\simpl_ToDoList\\Data\\Simpl_ToDoList.Data.Context.Contrat\\Simpl_ToDoList.Data.Context.Contrat.csproj": {
+    "C:\\Users\\Rasol\\OneDrive\\Documents\\CDA_DEVOPS\\BRIEFS\\BRIEF_6\\simpl_ToDoList\\Application\\simpl_ToDoList\\Data\\Simpl_ToDoList.Data.Context.Contrat\\simpl_ToDoList.Data.Context.Contrat.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rasol\\OneDrive\\Documents\\CDA_DEVOPS\\BRIEFS\\BRIEF_6\\simpl_ToDoList\\Application\\simpl_ToDoList\\Data\\Simpl_ToDoList.Data.Context.Contrat\\Simpl_ToDoList.Data.Context.Contrat.csproj",
-        "projectName": "Simpl_ToDoList.Data.Context.Contrat",
-        "projectPath": "C:\\Users\\Rasol\\OneDrive\\Documents\\CDA_DEVOPS\\BRIEFS\\BRIEF_6\\simpl_ToDoList\\Application\\simpl_ToDoList\\Data\\Simpl_ToDoList.Data.Context.Contrat\\Simpl_ToDoList.Data.Context.Contrat.csproj",
+        "projectUniqueName": "C:\\Users\\Rasol\\OneDrive\\Documents\\CDA_DEVOPS\\BRIEFS\\BRIEF_6\\simpl_ToDoList\\Application\\simpl_ToDoList\\Data\\Simpl_ToDoList.Data.Context.Contrat\\simpl_ToDoList.Data.Context.Contrat.csproj",
+        "projectName": "simpl_ToDoList.Data.Context.Contrat",
+        "projectPath": "C:\\Users\\Rasol\\OneDrive\\Documents\\CDA_DEVOPS\\BRIEFS\\BRIEF_6\\simpl_ToDoList\\Application\\simpl_ToDoList\\Data\\Simpl_ToDoList.Data.Context.Contrat\\simpl_ToDoList.Data.Context.Contrat.csproj",
         "packagesPath": "C:\\Users\\Rasol\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Rasol\\OneDrive\\Documents\\CDA_DEVOPS\\BRIEFS\\BRIEF_6\\simpl_ToDoList\\Application\\simpl_ToDoList\\Data\\Simpl_ToDoList.Data.Context.Contrat\\obj\\",
         "projectStyle": "PackageReference",
@@ -263,8 +263,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Rasol\\OneDrive\\Documents\\CDA_DEVOPS\\BRIEFS\\BRIEF_6\\simpl_ToDoList\\Application\\simpl_ToDoList\\Data\\Simpl_ToDoList.Data.Context.Contrat\\Simpl_ToDoList.Data.Context.Contrat.csproj": {
-                "projectPath": "C:\\Users\\Rasol\\OneDrive\\Documents\\CDA_DEVOPS\\BRIEFS\\BRIEF_6\\simpl_ToDoList\\Application\\simpl_ToDoList\\Data\\Simpl_ToDoList.Data.Context.Contrat\\Simpl_ToDoList.Data.Context.Contrat.csproj"
+              "C:\\Users\\Rasol\\OneDrive\\Documents\\CDA_DEVOPS\\BRIEFS\\BRIEF_6\\simpl_ToDoList\\Application\\simpl_ToDoList\\Data\\Simpl_ToDoList.Data.Context.Contrat\\simpl_ToDoList.Data.Context.Contrat.csproj": {
+                "projectPath": "C:\\Users\\Rasol\\OneDrive\\Documents\\CDA_DEVOPS\\BRIEFS\\BRIEF_6\\simpl_ToDoList\\Application\\simpl_ToDoList\\Data\\Simpl_ToDoList.Data.Context.Contrat\\simpl_ToDoList.Data.Context.Contrat.csproj"
               },
               "C:\\Users\\Rasol\\OneDrive\\Documents\\CDA_DEVOPS\\BRIEFS\\BRIEF_6\\simpl_ToDoList\\Application\\simpl_ToDoList\\Data\\simpl_ToDoList.Data.Entity\\simpl_ToDoList.Data.Entity.csproj": {
                 "projectPath": "C:\\Users\\Rasol\\OneDrive\\Documents\\CDA_DEVOPS\\BRIEFS\\BRIEF_6\\simpl_ToDoList\\Application\\simpl_ToDoList\\Data\\simpl_ToDoList.Data.Entity\\simpl_ToDoList.Data.Entity.csproj"

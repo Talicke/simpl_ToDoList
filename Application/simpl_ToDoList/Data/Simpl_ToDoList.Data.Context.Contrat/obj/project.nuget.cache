@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bhy4M5X3wCd3JQHC85hOZx3HiAhezCQ5q3KOhuRVCCNm0O/2yr1DcoCZJpSXx3cO16YbL0NzaSmvgYct0Q9T6g==",
+  "dgSpecHash": "7KON5yZT0pBLHjq6Q1kuK3bKC3XZbr920n1BDPG1PWSto1iw2A+4A8X0GRhkoOZ+qoLQ7UkE+nd115jX6dhGWg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rasol\\OneDrive\\Documents\\CDA_DEVOPS\\BRIEFS\\BRIEF_6\\simpl_ToDoList\\Application\\simpl_ToDoList\\Data\\Simpl_ToDoList.Data.Context.Contrat\\Simpl_ToDoList.Data.Context.Contrat.csproj",
+  "projectFilePath": "C:\\Users\\Rasol\\OneDrive\\Documents\\CDA_DEVOPS\\BRIEFS\\BRIEF_6\\simpl_ToDoList\\Application\\simpl_ToDoList\\Data\\Simpl_ToDoList.Data.Context.Contrat\\simpl_ToDoList.Data.Context.Contrat.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rasol\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.9\\microsoft.entityframeworkcore.7.0.9.nupkg.sha512",
     "C:\\Users\\Rasol\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.9\\microsoft.entityframeworkcore.abstractions.7.0.9.nupkg.sha512",

@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rasol\\OneDrive\\Documents\\CDA_DEVOPS\\BRIEFS\\BRIEF_6\\simpl_ToDoList\\Application\\simpl_ToDoList\\Data\\Simpl_ToDoList.Data.Repository.Contrat\\Simpl_ToDoList.Data.Repository.Contrat.csproj": {}
+    "C:\\Users\\Rasol\\OneDrive\\Documents\\CDA_DEVOPS\\BRIEFS\\BRIEF_6\\simpl_ToDoList\\Application\\simpl_ToDoList\\Data\\Simpl_ToDoList.Data.Repository.Contrat\\simpl_ToDoList.Data.Repository.Contrat.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rasol\\OneDrive\\Documents\\CDA_DEVOPS\\BRIEFS\\BRIEF_6\\simpl_ToDoList\\Application\\simpl_ToDoList\\Data\\Simpl_ToDoList.Data.Repository.Contrat\\Simpl_ToDoList.Data.Repository.Contrat.csproj": {
+    "C:\\Users\\Rasol\\OneDrive\\Documents\\CDA_DEVOPS\\BRIEFS\\BRIEF_6\\simpl_ToDoList\\Application\\simpl_ToDoList\\Data\\Simpl_ToDoList.Data.Repository.Contrat\\simpl_ToDoList.Data.Repository.Contrat.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rasol\\OneDrive\\Documents\\CDA_DEVOPS\\BRIEFS\\BRIEF_6\\simpl_ToDoList\\Application\\simpl_ToDoList\\Data\\Simpl_ToDoList.Data.Repository.Contrat\\Simpl_ToDoList.Data.Repository.Contrat.csproj",
-        "projectName": "Simpl_ToDoList.Data.Repository.Contrat",
-        "projectPath": "C:\\Users\\Rasol\\OneDrive\\Documents\\CDA_DEVOPS\\BRIEFS\\BRIEF_6\\simpl_ToDoList\\Application\\simpl_ToDoList\\Data\\Simpl_ToDoList.Data.Repository.Contrat\\Simpl_ToDoList.Data.Repository.Contrat.csproj",
+        "projectUniqueName": "C:\\Users\\Rasol\\OneDrive\\Documents\\CDA_DEVOPS\\BRIEFS\\BRIEF_6\\simpl_ToDoList\\Application\\simpl_ToDoList\\Data\\Simpl_ToDoList.Data.Repository.Contrat\\simpl_ToDoList.Data.Repository.Contrat.csproj",
+        "projectName": "simpl_ToDoList.Data.Repository.Contrat",
+        "projectPath": "C:\\Users\\Rasol\\OneDrive\\Documents\\CDA_DEVOPS\\BRIEFS\\BRIEF_6\\simpl_ToDoList\\Application\\simpl_ToDoList\\Data\\Simpl_ToDoList.Data.Repository.Contrat\\simpl_ToDoList.Data.Repository.Contrat.csproj",
         "packagesPath": "C:\\Users\\Rasol\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Rasol\\OneDrive\\Documents\\CDA_DEVOPS\\BRIEFS\\BRIEF_6\\simpl_ToDoList\\Application\\simpl_ToDoList\\Data\\Simpl_ToDoList.Data.Repository.Contrat\\obj\\",
         "projectStyle": "PackageReference",

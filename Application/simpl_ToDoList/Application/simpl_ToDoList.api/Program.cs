@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Pomelo.EntityFrameworkCore.MySql.Internal;
+using simpl_ToDoList.Data.Context.Contrat;
 using simpl_ToDoListe.Data.Context;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,7 +10,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 string connectionString = builder.Configuration.GetConnectionString("BddConnection");
 
-builder.Services.AddDbContext<simpl_ToDoListDBContect>
+builder.Services.AddDbContext<Isimpl_ToDoListDBContect,simpl_ToDoListDBContect>
     (options => options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString),
                 mySqlOptions =>
                 {

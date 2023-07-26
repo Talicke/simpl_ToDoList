@@ -1,11 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using simpl_ToDoList.Data.Entity;
-using Simpl_ToDoList.Data.Context.Contrat;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using simpl_ToDoList.Data.Context.Contrat;
+using Microsoft.EntityFrameworkCore.Infrastructure;
 
 namespace simpl_ToDoListe.Data.Context
 {
@@ -25,6 +21,18 @@ namespace simpl_ToDoListe.Data.Context
         public virtual DbSet<User> Users { get; set; }
         public virtual DbSet<Tache> Taches { get; set; }
         public virtual DbSet<Status> Statuss { get; set; }
+
+        public DatabaseFacade DatabaseFacade => throw new NotImplementedException();
+
+        public Task<int> SaveChangeAsync(CancellationToken cancellationToken = default)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<int> SaveChangeAsync(bool AcceptAllChangesOnSucces, CancellationToken cancellationToken = default)
+        {
+            throw new NotImplementedException();
+        }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -58,4 +66,5 @@ namespace simpl_ToDoListe.Data.Context
             modelBuilder.Entity<User>().HasData(User);
         }
     }
+
 }
