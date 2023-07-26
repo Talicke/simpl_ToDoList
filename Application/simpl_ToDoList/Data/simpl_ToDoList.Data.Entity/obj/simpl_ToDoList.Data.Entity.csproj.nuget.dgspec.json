@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Taliq\\OneDrive\\Documents\\Cours\\Simplon\\Brief\\Simpl_ToDoList\\Application\\simpl_ToDoList\\Data\\simpl_ToDoList.Data.Entity\\simpl_ToDoList.Data.Entity.csproj": {}
+    "C:\\Users\\Rasol\\OneDrive\\Documents\\CDA_DEVOPS\\BRIEFS\\BRIEF_6\\simpl_ToDoList\\Application\\simpl_ToDoList\\Data\\simpl_ToDoList.Data.Entity\\simpl_ToDoList.Data.Entity.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Taliq\\OneDrive\\Documents\\Cours\\Simplon\\Brief\\Simpl_ToDoList\\Application\\simpl_ToDoList\\Data\\simpl_ToDoList.Data.Entity\\simpl_ToDoList.Data.Entity.csproj": {
+    "C:\\Users\\Rasol\\OneDrive\\Documents\\CDA_DEVOPS\\BRIEFS\\BRIEF_6\\simpl_ToDoList\\Application\\simpl_ToDoList\\Data\\simpl_ToDoList.Data.Entity\\simpl_ToDoList.Data.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Taliq\\OneDrive\\Documents\\Cours\\Simplon\\Brief\\Simpl_ToDoList\\Application\\simpl_ToDoList\\Data\\simpl_ToDoList.Data.Entity\\simpl_ToDoList.Data.Entity.csproj",
+        "projectUniqueName": "C:\\Users\\Rasol\\OneDrive\\Documents\\CDA_DEVOPS\\BRIEFS\\BRIEF_6\\simpl_ToDoList\\Application\\simpl_ToDoList\\Data\\simpl_ToDoList.Data.Entity\\simpl_ToDoList.Data.Entity.csproj",
         "projectName": "simpl_ToDoList.Data.Entity",
-        "projectPath": "C:\\Users\\Taliq\\OneDrive\\Documents\\Cours\\Simplon\\Brief\\Simpl_ToDoList\\Application\\simpl_ToDoList\\Data\\simpl_ToDoList.Data.Entity\\simpl_ToDoList.Data.Entity.csproj",
-        "packagesPath": "C:\\Users\\Taliq\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Taliq\\OneDrive\\Documents\\Cours\\Simplon\\Brief\\Simpl_ToDoList\\Application\\simpl_ToDoList\\Data\\simpl_ToDoList.Data.Entity\\obj\\",
+        "projectPath": "C:\\Users\\Rasol\\OneDrive\\Documents\\CDA_DEVOPS\\BRIEFS\\BRIEF_6\\simpl_ToDoList\\Application\\simpl_ToDoList\\Data\\simpl_ToDoList.Data.Entity\\simpl_ToDoList.Data.Entity.csproj",
+        "packagesPath": "C:\\Users\\Rasol\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Rasol\\OneDrive\\Documents\\CDA_DEVOPS\\BRIEFS\\BRIEF_6\\simpl_ToDoList\\Application\\simpl_ToDoList\\Data\\simpl_ToDoList.Data.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Taliq\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Rasol\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

@@ -489,6 +489,20 @@
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
       },
+      "Simpl_ToDoList.Data.Context.Contrat/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.9",
+          "simpl_ToDoList.Data.Entity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Simpl_ToDoList.Data.Context.Contrat.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Simpl_ToDoList.Data.Context.Contrat.dll": {}
+        }
+      },
       "simpl_ToDoList.Data.Entity/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -507,6 +521,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
+          "Simpl_ToDoList.Data.Context.Contrat": "1.0.0",
           "simpl_ToDoList.Data.Entity": "1.0.0"
         },
         "compile": {
@@ -1461,6 +1476,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Simpl_ToDoList.Data.Context.Contrat/1.0.0": {
+      "type": "project",
+      "path": "../../Data/Simpl_ToDoList.Data.Context.Contrat/Simpl_ToDoList.Data.Context.Contrat.csproj",
+      "msbuildProject": "../../Data/Simpl_ToDoList.Data.Context.Contrat/Simpl_ToDoList.Data.Context.Contrat.csproj"
+    },
     "simpl_ToDoList.Data.Entity/1.0.0": {
       "type": "project",
       "path": "../../Data/simpl_ToDoList.Data.Entity/simpl_ToDoList.Data.Entity.csproj",
@@ -1481,23 +1501,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Taliq\\.nuget\\packages\\": {},
+    "C:\\Users\\Rasol\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Taliq\\OneDrive\\Documents\\Cours\\Simplon\\Brief\\Simpl_ToDoList\\Application\\simpl_ToDoList\\Application\\simpl_ToDoList.api\\simpl_ToDoList.api.csproj",
+      "projectUniqueName": "C:\\Users\\Rasol\\OneDrive\\Documents\\CDA_DEVOPS\\BRIEFS\\BRIEF_6\\simpl_ToDoList\\Application\\simpl_ToDoList\\Application\\simpl_ToDoList.api\\simpl_ToDoList.api.csproj",
       "projectName": "simpl_ToDoList.api",
-      "projectPath": "C:\\Users\\Taliq\\OneDrive\\Documents\\Cours\\Simplon\\Brief\\Simpl_ToDoList\\Application\\simpl_ToDoList\\Application\\simpl_ToDoList.api\\simpl_ToDoList.api.csproj",
-      "packagesPath": "C:\\Users\\Taliq\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Taliq\\OneDrive\\Documents\\Cours\\Simplon\\Brief\\Simpl_ToDoList\\Application\\simpl_ToDoList\\Application\\simpl_ToDoList.api\\obj\\",
+      "projectPath": "C:\\Users\\Rasol\\OneDrive\\Documents\\CDA_DEVOPS\\BRIEFS\\BRIEF_6\\simpl_ToDoList\\Application\\simpl_ToDoList\\Application\\simpl_ToDoList.api\\simpl_ToDoList.api.csproj",
+      "packagesPath": "C:\\Users\\Rasol\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Rasol\\OneDrive\\Documents\\CDA_DEVOPS\\BRIEFS\\BRIEF_6\\simpl_ToDoList\\Application\\simpl_ToDoList\\Application\\simpl_ToDoList.api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Taliq\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Rasol\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1514,8 +1534,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Taliq\\OneDrive\\Documents\\Cours\\Simplon\\Brief\\Simpl_ToDoList\\Application\\simpl_ToDoList\\simpl_ToDoListe.Data.Context\\simpl_ToDoListe.Data.Context.csproj": {
-              "projectPath": "C:\\Users\\Taliq\\OneDrive\\Documents\\Cours\\Simplon\\Brief\\Simpl_ToDoList\\Application\\simpl_ToDoList\\simpl_ToDoListe.Data.Context\\simpl_ToDoListe.Data.Context.csproj"
+            "C:\\Users\\Rasol\\OneDrive\\Documents\\CDA_DEVOPS\\BRIEFS\\BRIEF_6\\simpl_ToDoList\\Application\\simpl_ToDoList\\simpl_ToDoListe.Data.Context\\simpl_ToDoListe.Data.Context.csproj": {
+              "projectPath": "C:\\Users\\Rasol\\OneDrive\\Documents\\CDA_DEVOPS\\BRIEFS\\BRIEF_6\\simpl_ToDoList\\Application\\simpl_ToDoList\\simpl_ToDoListe.Data.Context\\simpl_ToDoListe.Data.Context.csproj"
             }
           }
         }

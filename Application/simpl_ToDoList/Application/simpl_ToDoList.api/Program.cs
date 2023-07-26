@@ -13,7 +13,7 @@ builder.Services.AddDbContext<simpl_ToDoListDBContect>
     (options => options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString),
                 mySqlOptions =>
                 {
-                    mySqlOptions.MigrationsAssembly("Simpl_ToDoList.api");
+                    mySqlOptions.MigrationsAssembly("simpl_ToDoList.api");
                 })
                 .LogTo(Console.WriteLine, LogLevel.Information)
                 .EnableSensitiveDataLogging()
