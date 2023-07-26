@@ -1,4 +1,5 @@
 ﻿using System;
+using simpl_ToDoList.Data.Entity;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,8 +10,9 @@ namespace Simpl_ToDoList.Data.Context.Contrat
 {
     public interface Isimpl_ToDoListDBContect : IDbContext
     {
-          DbSet<User> Users { get; set; }
-          DbSet<Tache> Taches { get; set; }
-          DbSet<Status> Statuss { get; set; }
+        DbSet<User> Users { get; set; }
+        DbSet<Tache> Taches { get; set; }
+        DbSet<Status> Statuss { get; set; }
+
     }
 }
