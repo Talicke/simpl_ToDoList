@@ -178,7 +178,11 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Rasol\\OneDrive\\Documents\\CDA_DEVOPS\\BRIEFS\\BRIEF_6\\simpl_ToDoList\\Application\\simpl_ToDoList\\Data\\simpl_ToDoList.Data.Entity\\simpl_ToDoList.Data.Entity.csproj": {
+                "projectPath": "C:\\Users\\Rasol\\OneDrive\\Documents\\CDA_DEVOPS\\BRIEFS\\BRIEF_6\\simpl_ToDoList\\Application\\simpl_ToDoList\\Data\\simpl_ToDoList.Data.Entity\\simpl_ToDoList.Data.Entity.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

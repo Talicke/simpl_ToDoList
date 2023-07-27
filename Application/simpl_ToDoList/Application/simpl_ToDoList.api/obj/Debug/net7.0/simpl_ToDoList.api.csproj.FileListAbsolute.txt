@@ -92,3 +92,9 @@ C:\Users\Rasol\OneDrive\Documents\CDA_DEVOPS\BRIEFS\BRIEF_6\simpl_ToDoList\Appli
 C:\Users\Rasol\OneDrive\Documents\CDA_DEVOPS\BRIEFS\BRIEF_6\simpl_ToDoList\Application\simpl_ToDoList\Application\simpl_ToDoList.api\obj\Debug\net7.0\simpl_ToDoList.api.pdb
 C:\Users\Rasol\OneDrive\Documents\CDA_DEVOPS\BRIEFS\BRIEF_6\simpl_ToDoList\Application\simpl_ToDoList\Application\simpl_ToDoList.api\obj\Debug\net7.0\simpl_ToDoList.api.genruntimeconfig.cache
 C:\Users\Rasol\OneDrive\Documents\CDA_DEVOPS\BRIEFS\BRIEF_6\simpl_ToDoList\Application\simpl_ToDoList\Application\simpl_ToDoList.api\obj\Debug\net7.0\ref\simpl_ToDoList.api.dll
+C:\Users\Rasol\OneDrive\Documents\CDA_DEVOPS\BRIEFS\BRIEF_6\simpl_ToDoList\Application\simpl_ToDoList\Application\simpl_ToDoList.api\bin\Debug\net7.0\simpl_ToDoList.Data.Context.Contrat.dll
+C:\Users\Rasol\OneDrive\Documents\CDA_DEVOPS\BRIEFS\BRIEF_6\simpl_ToDoList\Application\simpl_ToDoList\Application\simpl_ToDoList.api\bin\Debug\net7.0\simpl_ToDoList.Data.Repository.Contrat.dll
+C:\Users\Rasol\OneDrive\Documents\CDA_DEVOPS\BRIEFS\BRIEF_6\simpl_ToDoList\Application\simpl_ToDoList\Application\simpl_ToDoList.api\bin\Debug\net7.0\simpl_ToDoList.Data.Repository.dll
+C:\Users\Rasol\OneDrive\Documents\CDA_DEVOPS\BRIEFS\BRIEF_6\simpl_ToDoList\Application\simpl_ToDoList\Application\simpl_ToDoList.api\bin\Debug\net7.0\simpl_ToDoList.Data.Repository.Contrat.pdb
+C:\Users\Rasol\OneDrive\Documents\CDA_DEVOPS\BRIEFS\BRIEF_6\simpl_ToDoList\Application\simpl_ToDoList\Application\simpl_ToDoList.api\bin\Debug\net7.0\simpl_ToDoList.Data.Repository.pdb
+C:\Users\Rasol\OneDrive\Documents\CDA_DEVOPS\BRIEFS\BRIEF_6\simpl_ToDoList\Application\simpl_ToDoList\Application\simpl_ToDoList.api\bin\Debug\net7.0\simpl_ToDoList.Data.Context.Contrat.pdb

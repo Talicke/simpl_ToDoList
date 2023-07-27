@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v7.0": {
       "simpl_ToDoListe.Data.Context/1.0.0": {
         "dependencies": {
+          "simpl_ToDoList.Data.Context.Contrat": "1.0.0",
           "simpl_ToDoList.Data.Entity": "1.0.0"
         },
         "runtime": {
@@ -168,6 +169,15 @@
           }
         }
       },
+      "simpl_ToDoList.Data.Context.Contrat/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.9",
+          "simpl_ToDoList.Data.Entity": "1.0.0"
+        },
+        "runtime": {
+          "simpl_ToDoList.Data.Context.Contrat.dll": {}
+        }
+      },
       "simpl_ToDoList.Data.Entity/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "7.0.9",
@@ -289,6 +299,11 @@
       "sha512": "sha512-Qk5WB/skSZet5Yrz6AN2ywjZaB1pxfAmvQ+5I4khTkLwwIamI4QJoH2NphCWLFQL+2ar8HvsNCTmwYk0qhqL0w==",
       "path": "pomelo.entityframeworkcore.mysql/7.0.0",
       "hashPath": "pomelo.entityframeworkcore.mysql.7.0.0.nupkg.sha512"
+    },
+    "simpl_ToDoList.Data.Context.Contrat/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "simpl_ToDoList.Data.Entity/1.0.0": {
       "type": "project",

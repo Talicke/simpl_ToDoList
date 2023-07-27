@@ -5,7 +5,7 @@ VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{D2289E17-CEBF-40A1-ACB1-AA7CD2CEB819}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{2DB536E1-7F59-4188-BA12-79A344D2E089}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{2DB536E1-7F59-4188-BA12-79A344D2E089}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{7DD25D95-02E0-4983-AEC3-21B35314FF0A}"
 EndProject
@@ -15,11 +15,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "simpl_ToDoList.Data.Entity"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "simpl_ToDoListe.Data.Context", "simpl_ToDoListe.Data.Context\simpl_ToDoListe.Data.Context.csproj", "{35A82F04-B74F-4327-9A41-46DC08A710C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simpl_ToDoList.Data.Context.Contrat", "Data\Simpl_ToDoList.Data.Context.Contrat\Simpl_ToDoList.Data.Context.Contrat.csproj", "{0D300BF6-79C0-4736-A1D3-A5A49F0C919B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "simpl_ToDoList.Data.Context.Contrat", "Data\Simpl_ToDoList.Data.Context.Contrat\simpl_ToDoList.Data.Context.Contrat.csproj", "{0D300BF6-79C0-4736-A1D3-A5A49F0C919B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simpl_ToDoList.Data.Repository", "Data\Simpl_ToDoList.Data.Repository\Simpl_ToDoList.Data.Repository.csproj", "{70D42151-3C5B-4E98-9678-C9FCE22CDA23}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "simpl_ToDoList.Data.Repository", "Data\Simpl_ToDoList.Data.Repository\simpl_ToDoList.Data.Repository.csproj", "{70D42151-3C5B-4E98-9678-C9FCE22CDA23}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simpl_ToDoList.Data.Repository.Contrat", "Data\Simpl_ToDoList.Data.Repository.Contrat\Simpl_ToDoList.Data.Repository.Contrat.csproj", "{5CAA62D0-397A-4443-B238-38E11E933664}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "simpl_ToDoList.Data.Repository.Contrat", "Data\Simpl_ToDoList.Data.Repository.Contrat\simpl_ToDoList.Data.Repository.Contrat.csproj", "{5CAA62D0-397A-4443-B238-38E11E933664}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simpl_ToDoList.Business.Service", "Business\Simpl_ToDoList.Business.Service\Simpl_ToDoList.Business.Service.csproj", "{51096897-5E7D-41B0-B3F1-9E2A6C72B143}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simpl_ToDoList.Business.Service.Contrat", "Business\Simpl_ToDoList.Business.Service.Contrat\Simpl_ToDoList.Business.Service.Contrat.csproj", "{1618F1F8-3AB9-4B26-8F88-D64C0E411153}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simpl_ToDoList.Business.Models", "Business\Simpl_ToDoList.Business.Models\Simpl_ToDoList.Business.Models.csproj", "{B72B7BB1-5DF2-4BB7-AAE2-8BE1CAAB44A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simpl_ToDoList.Business.Mapper", "Business\Simpl_ToDoList.Business.Mapper\Simpl_ToDoList.Business.Mapper.csproj", "{FEC87849-9928-463B-9569-BEEED9722D28}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +59,22 @@ Global
 		{5CAA62D0-397A-4443-B238-38E11E933664}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CAA62D0-397A-4443-B238-38E11E933664}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CAA62D0-397A-4443-B238-38E11E933664}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51096897-5E7D-41B0-B3F1-9E2A6C72B143}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51096897-5E7D-41B0-B3F1-9E2A6C72B143}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51096897-5E7D-41B0-B3F1-9E2A6C72B143}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51096897-5E7D-41B0-B3F1-9E2A6C72B143}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1618F1F8-3AB9-4B26-8F88-D64C0E411153}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1618F1F8-3AB9-4B26-8F88-D64C0E411153}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1618F1F8-3AB9-4B26-8F88-D64C0E411153}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1618F1F8-3AB9-4B26-8F88-D64C0E411153}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B72B7BB1-5DF2-4BB7-AAE2-8BE1CAAB44A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B72B7BB1-5DF2-4BB7-AAE2-8BE1CAAB44A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B72B7BB1-5DF2-4BB7-AAE2-8BE1CAAB44A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B72B7BB1-5DF2-4BB7-AAE2-8BE1CAAB44A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEC87849-9928-463B-9569-BEEED9722D28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEC87849-9928-463B-9569-BEEED9722D28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEC87849-9928-463B-9569-BEEED9722D28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEC87849-9928-463B-9569-BEEED9722D28}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,6 +86,10 @@ Global
 		{0D300BF6-79C0-4736-A1D3-A5A49F0C919B} = {D2289E17-CEBF-40A1-ACB1-AA7CD2CEB819}
 		{70D42151-3C5B-4E98-9678-C9FCE22CDA23} = {D2289E17-CEBF-40A1-ACB1-AA7CD2CEB819}
 		{5CAA62D0-397A-4443-B238-38E11E933664} = {D2289E17-CEBF-40A1-ACB1-AA7CD2CEB819}
+		{51096897-5E7D-41B0-B3F1-9E2A6C72B143} = {2DB536E1-7F59-4188-BA12-79A344D2E089}
+		{1618F1F8-3AB9-4B26-8F88-D64C0E411153} = {2DB536E1-7F59-4188-BA12-79A344D2E089}
+		{B72B7BB1-5DF2-4BB7-AAE2-8BE1CAAB44A5} = {2DB536E1-7F59-4188-BA12-79A344D2E089}
+		{FEC87849-9928-463B-9569-BEEED9722D28} = {2DB536E1-7F59-4188-BA12-79A344D2E089}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EEE66267-ED4C-497F-AE10-B48A1ED7112B}

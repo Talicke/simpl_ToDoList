@@ -1,7 +1,12 @@
 using Microsoft.EntityFrameworkCore;
 using Pomelo.EntityFrameworkCore.MySql.Internal;
 using simpl_ToDoList.Data.Context.Contrat;
+using simpl_ToDoList.Data.Repository;
+using simpl_ToDoList.Data.Repository.Contrat;
+using Simpl_ToDoList.Business.Service;
+using Simpl_ToDoList.Business.Service.Contrat;
 using simpl_ToDoListe.Data.Context;
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -26,6 +31,15 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
+
+builder.Services.AddAutoMapper(Assembly.Load("Simpl_ToDoList.Business.Mapper"));
+
+//injection
+builder.Services.AddScoped<ITachesRepository, TachesRepository>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<ITachesRepository, TachesRepository>();
+
+builder.Services.AddScoped<ITachesService, TachesService>();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

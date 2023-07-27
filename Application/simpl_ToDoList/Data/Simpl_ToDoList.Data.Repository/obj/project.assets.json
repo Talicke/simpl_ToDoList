@@ -295,6 +295,9 @@
       "simpl_ToDoList.Data.Repository.Contrat/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "simpl_ToDoList.Data.Entity": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/simpl_ToDoList.Data.Repository.Contrat.dll": {}
         },

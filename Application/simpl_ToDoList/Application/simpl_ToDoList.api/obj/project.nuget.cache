@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "X3VEelqdeeWY0qf6h0wcGc0JYm5OvWs+QN2H9QVb9JzBQUbq9Tg4/5hf6xR0Qj58F6OBvcEZ2aO8B8zST3ufSA==",
+  "dgSpecHash": "yncy2c1e3wsldHUv401B6INV2aD+5AmRyKzfgoZamsLwjjmZuiSZSVDKKRq5i/bSK3zQAdauDmoMe2zzxDdcoA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Rasol\\OneDrive\\Documents\\CDA_DEVOPS\\BRIEFS\\BRIEF_6\\simpl_ToDoList\\Application\\simpl_ToDoList\\Application\\simpl_ToDoList.api\\simpl_ToDoList.api.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Rasol\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\Rasol\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\Rasol\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Rasol\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.7\\microsoft.aspnetcore.openapi.7.0.7.nupkg.sha512",
+    "C:\\Users\\Rasol\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Rasol\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.9\\microsoft.entityframeworkcore.7.0.9.nupkg.sha512",
     "C:\\Users\\Rasol\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.9\\microsoft.entityframeworkcore.abstractions.7.0.9.nupkg.sha512",
     "C:\\Users\\Rasol\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.9\\microsoft.entityframeworkcore.analyzers.7.0.9.nupkg.sha512",

@@ -9,25 +9,31 @@ using System.Threading.Tasks;
 
 namespace simpl_ToDoList.Data.Repository
 {
-    public class GenericRepository<T>: IGenericRepository<T> where T : class
+    public abstract class GenericRepository<T>: IGenericRepository<T> where T : class
     {
         private readonly Isimpl_ToDoListDBContect _DbContext;
 
-        private readonly DbSet<T> _Table;
+        protected readonly DbSet<T> _Table;
         public GenericRepository(Isimpl_ToDoListDBContect Dbcontext)
         {
             _DbContext = Dbcontext;
             _Table: Dbcontext.Set<T>();
         }
 
-        public Task<T> Creer(T nouveauClient)
+        public async Task<T> Creer(T newEntity)
         {
-            throw new NotImplementedException();
+            var EntityAdded=await _Table.AddAsync(newEntity).ConfigureAwait(false);
+            await _DbContext.SaveChangeAsync().ConfigureAwait(false);
+
+            return EntityAdded.Entity;
         }
 
-        public Task<T> Modifier(T modifClient)
+        public async Task<T> Modifier(T modifEntity)
         {
-            throw new NotImplementedException();
+            var EntityUpdated = _Table.Update(modifEntity);
+            await _DbContext.SaveChangeAsync().ConfigureAwait(false);
+
+            return EntityUpdated.Entity;
         }
 
         public async Task<IEnumerable<T>> SelecAllAsync()
@@ -35,14 +41,22 @@ namespace simpl_ToDoList.Data.Repository
             return await _Table.ToListAsync().ConfigureAwait(false);
         }
 
-        public Task<T> SelecAvecId(int idClient)
+        public async Task<T> SelecAvecId(object idEntity)
+        {
+            return await _Table.FindAsync(idEntity).ConfigureAwait(false);
+        }
+
+        public Task<T> SelecAvecId(int identity)
         {
             throw new NotImplementedException();
         }
 
-        public Task<T> Supprimer(T supprClient)
+        public async Task<T> Supprimer(T supprEntity)
         {
-            throw new NotImplementedException();
+            var EntityDeleted = _Table.Remove(supprEntity);
+            await _DbContext.SaveChangeAsync().ConfigureAwait(false);
+
+            return EntityDeleted.Entity;
         }
     }
 }
