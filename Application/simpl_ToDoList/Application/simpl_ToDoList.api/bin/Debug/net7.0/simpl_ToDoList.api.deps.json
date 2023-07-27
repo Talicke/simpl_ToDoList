@@ -10,13 +10,42 @@
         "dependencies": {
           "Microsoft.AspNetCore.OpenApi": "7.0.7",
           "Microsoft.EntityFrameworkCore.Design": "7.0.9",
+          "Simpl_ToDoList.Business.Mapper": "1.0.0",
+          "Simpl_ToDoList.Business.Models": "1.0.0",
+          "Simpl_ToDoList.Business.Service": "1.0.0",
+          "Simpl_ToDoList.Business.Service.Contrat": "1.0.0",
           "Swashbuckle.AspNetCore": "6.5.0",
+          "simpl_ToDoList.Data.Context.Contrat": "1.0.0",
+          "simpl_ToDoList.Data.Entity": "1.0.0",
           "simpl_ToDoList.Data.Repository": "1.0.0",
           "simpl_ToDoList.Data.Repository.Contrat": "1.0.0",
           "simpl_ToDoListe.Data.Context": "1.0.0"
         },
         "runtime": {
           "simpl_ToDoList.api.dll": {}
+        }
+      },
+      "AutoMapper/12.0.1": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/AutoMapper.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.1.0"
+          }
+        }
+      },
+      "AutoMapper.Extensions.Microsoft.DependencyInjection/12.0.1": {
+        "dependencies": {
+          "AutoMapper": "12.0.1",
+          "Microsoft.Extensions.Options": "7.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.1.0"
+          }
         }
       },
       "Humanizer.Core/2.14.1": {
@@ -38,6 +67,7 @@
           }
         }
       },
+      "Microsoft.CSharp/4.7.0": {},
       "Microsoft.EntityFrameworkCore/7.0.9": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Abstractions": "7.0.9",
@@ -233,6 +263,43 @@
           "System.Text.Encodings.Web": "7.0.0"
         }
       },
+      "Simpl_ToDoList.Business.Mapper/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "12.0.1",
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
+          "Simpl_ToDoList.Business.Models": "1.0.0",
+          "simpl_ToDoList.Data.Entity": "1.0.0"
+        },
+        "runtime": {
+          "Simpl_ToDoList.Business.Mapper.dll": {}
+        }
+      },
+      "Simpl_ToDoList.Business.Models/1.0.0": {
+        "dependencies": {
+          "simpl_ToDoList.Data.Entity": "1.0.0"
+        },
+        "runtime": {
+          "Simpl_ToDoList.Business.Models.dll": {}
+        }
+      },
+      "Simpl_ToDoList.Business.Service/1.0.0": {
+        "dependencies": {
+          "Simpl_ToDoList.Business.Mapper": "1.0.0",
+          "Simpl_ToDoList.Business.Service.Contrat": "1.0.0",
+          "simpl_ToDoList.Data.Repository.Contrat": "1.0.0"
+        },
+        "runtime": {
+          "Simpl_ToDoList.Business.Service.dll": {}
+        }
+      },
+      "Simpl_ToDoList.Business.Service.Contrat/1.0.0": {
+        "dependencies": {
+          "Simpl_ToDoList.Business.Models": "1.0.0"
+        },
+        "runtime": {
+          "Simpl_ToDoList.Business.Service.Contrat.dll": {}
+        }
+      },
       "simpl_ToDoList.Data.Context.Contrat/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "7.0.9",
@@ -285,6 +352,20 @@
       "serviceable": false,
       "sha512": ""
     },
+    "AutoMapper/12.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hvV62vl6Hp/WfQ24yzo3Co9+OPl8wH8hApwVtgWpiAynVJkUcs7xvehnSftawL8Pe8FrPffBRM3hwzLQqWDNjA==",
+      "path": "automapper/12.0.1",
+      "hashPath": "automapper.12.0.1.nupkg.sha512"
+    },
+    "AutoMapper.Extensions.Microsoft.DependencyInjection/12.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+g/K+Vpe3gGMKGzjslMOdqNlkikScDjWfVvmWTayrDHaG/n2pPmFBMa+jKX1r/h6BDGFdkyRjAuhFE3ykW+r1g==",
+      "path": "automapper.extensions.microsoft.dependencyinjection/12.0.1",
+      "hashPath": "automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512"
+    },
     "Humanizer.Core/2.14.1": {
       "type": "package",
       "serviceable": true,
@@ -298,6 +379,13 @@
       "sha512": "sha512-6E1I154QELFjQ4RvSWwZAlZrvB2Dy3aOkcYAQ+E4NsyqwKqFbG10HeWp/WJfq+2btUz1dKzmNMwnADf8WBk/0w==",
       "path": "microsoft.aspnetcore.openapi/7.0.7",
       "hashPath": "microsoft.aspnetcore.openapi.7.0.7.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "path": "microsoft.csharp/4.7.0",
+      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore/7.0.9": {
       "type": "package",
@@ -487,6 +575,26 @@
       "sha512": "sha512-DaGSsVqKsn/ia6RG8frjwmJonfos0srquhw09TlT8KRw5I43E+4gs+/bZj4K0vShJ5H9imCuXupb4RmS+dBy3w==",
       "path": "system.text.json/7.0.0",
       "hashPath": "system.text.json.7.0.0.nupkg.sha512"
+    },
+    "Simpl_ToDoList.Business.Mapper/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Simpl_ToDoList.Business.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Simpl_ToDoList.Business.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Simpl_ToDoList.Business.Service.Contrat/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "simpl_ToDoList.Data.Context.Contrat/1.0.0": {
       "type": "project",

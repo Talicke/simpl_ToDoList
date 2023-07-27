@@ -12,7 +12,7 @@ namespace simpl_ToDoList.Data.Repository
 {
     public class TachesRepository: GenericRepository<Tache>, ITachesRepository
     {
-        private readonly Isimpl_ToDoListDBContect _DbContext;
+        private  Isimpl_ToDoListDBContect _DbContext;
 
         public TachesRepository(Isimpl_ToDoListDBContect Dbcontext) : base(Dbcontext)
         {

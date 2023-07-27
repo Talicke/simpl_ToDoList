@@ -13,8 +13,8 @@ namespace Simpl_ToDoList.Business.Service
 {
     public class TachesService : ITachesService
     {
-        private readonly ITachesRepository _tachesRepository;
-        private readonly IMapper _mapper;
+        private ITachesRepository _tachesRepository;
+        private  IMapper _mapper;
 
         public TachesService(ITachesRepository tachesRepository, IMapper mapper)
         {

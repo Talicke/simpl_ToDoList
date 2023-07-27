@@ -30,7 +30,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-var app = builder.Build();
+
 
 builder.Services.AddAutoMapper(Assembly.Load("Simpl_ToDoList.Business.Mapper"));
 
@@ -40,6 +40,8 @@ builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<ITachesRepository, TachesRepository>();
 
 builder.Services.AddScoped<ITachesService, TachesService>();
+
+var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

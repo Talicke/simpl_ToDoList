@@ -10,7 +10,7 @@ namespace Simpl_ToDoList.Business.Service.Contrat
     public interface ITachesService
     {
         Task<List<ReadTachesDTO>> GetTaches();
-        Task<ReadTachesDTO> CreateTachesAsync(CreateTachesDTO tachescreate)
+        Task<ReadTachesDTO> CreateTachesAsync(CreateTachesDTO tachescreate);
 
     }
 }

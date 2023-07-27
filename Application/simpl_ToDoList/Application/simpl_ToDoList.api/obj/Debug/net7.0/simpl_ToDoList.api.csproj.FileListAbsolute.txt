@@ -76,7 +76,6 @@ C:\Users\Rasol\OneDrive\Documents\CDA_DEVOPS\BRIEFS\BRIEF_6\simpl_ToDoList\Appli
 C:\Users\Rasol\OneDrive\Documents\CDA_DEVOPS\BRIEFS\BRIEF_6\simpl_ToDoList\Application\simpl_ToDoList\Application\simpl_ToDoList.api\obj\Debug\net7.0\simpl_ToDoList.api.AssemblyInfoInputs.cache
 C:\Users\Rasol\OneDrive\Documents\CDA_DEVOPS\BRIEFS\BRIEF_6\simpl_ToDoList\Application\simpl_ToDoList\Application\simpl_ToDoList.api\obj\Debug\net7.0\simpl_ToDoList.api.AssemblyInfo.cs
 C:\Users\Rasol\OneDrive\Documents\CDA_DEVOPS\BRIEFS\BRIEF_6\simpl_ToDoList\Application\simpl_ToDoList\Application\simpl_ToDoList.api\obj\Debug\net7.0\simpl_ToDoList.api.csproj.CoreCompileInputs.cache
-C:\Users\Rasol\OneDrive\Documents\CDA_DEVOPS\BRIEFS\BRIEF_6\simpl_ToDoList\Application\simpl_ToDoList\Application\simpl_ToDoList.api\obj\Debug\net7.0\simpl_ToDoList.api.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Rasol\OneDrive\Documents\CDA_DEVOPS\BRIEFS\BRIEF_6\simpl_ToDoList\Application\simpl_ToDoList\Application\simpl_ToDoList.api\obj\Debug\net7.0\simpl_ToDoList.api.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Rasol\OneDrive\Documents\CDA_DEVOPS\BRIEFS\BRIEF_6\simpl_ToDoList\Application\simpl_ToDoList\Application\simpl_ToDoList.api\obj\Debug\net7.0\staticwebassets\msbuild.simpl_ToDoList.api.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Users\Rasol\OneDrive\Documents\CDA_DEVOPS\BRIEFS\BRIEF_6\simpl_ToDoList\Application\simpl_ToDoList\Application\simpl_ToDoList.api\obj\Debug\net7.0\staticwebassets\msbuild.build.simpl_ToDoList.api.props
@@ -98,3 +97,13 @@ C:\Users\Rasol\OneDrive\Documents\CDA_DEVOPS\BRIEFS\BRIEF_6\simpl_ToDoList\Appli
 C:\Users\Rasol\OneDrive\Documents\CDA_DEVOPS\BRIEFS\BRIEF_6\simpl_ToDoList\Application\simpl_ToDoList\Application\simpl_ToDoList.api\bin\Debug\net7.0\simpl_ToDoList.Data.Repository.Contrat.pdb
 C:\Users\Rasol\OneDrive\Documents\CDA_DEVOPS\BRIEFS\BRIEF_6\simpl_ToDoList\Application\simpl_ToDoList\Application\simpl_ToDoList.api\bin\Debug\net7.0\simpl_ToDoList.Data.Repository.pdb
 C:\Users\Rasol\OneDrive\Documents\CDA_DEVOPS\BRIEFS\BRIEF_6\simpl_ToDoList\Application\simpl_ToDoList\Application\simpl_ToDoList.api\bin\Debug\net7.0\simpl_ToDoList.Data.Context.Contrat.pdb
+C:\Users\Rasol\OneDrive\Documents\CDA_DEVOPS\BRIEFS\BRIEF_6\simpl_ToDoList\Application\simpl_ToDoList\Application\simpl_ToDoList.api\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\Rasol\OneDrive\Documents\CDA_DEVOPS\BRIEFS\BRIEF_6\simpl_ToDoList\Application\simpl_ToDoList\Application\simpl_ToDoList.api\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Rasol\OneDrive\Documents\CDA_DEVOPS\BRIEFS\BRIEF_6\simpl_ToDoList\Application\simpl_ToDoList\Application\simpl_ToDoList.api\bin\Debug\net7.0\Simpl_ToDoList.Business.Mapper.dll
+C:\Users\Rasol\OneDrive\Documents\CDA_DEVOPS\BRIEFS\BRIEF_6\simpl_ToDoList\Application\simpl_ToDoList\Application\simpl_ToDoList.api\bin\Debug\net7.0\Simpl_ToDoList.Business.Models.dll
+C:\Users\Rasol\OneDrive\Documents\CDA_DEVOPS\BRIEFS\BRIEF_6\simpl_ToDoList\Application\simpl_ToDoList\Application\simpl_ToDoList.api\bin\Debug\net7.0\Simpl_ToDoList.Business.Service.Contrat.dll
+C:\Users\Rasol\OneDrive\Documents\CDA_DEVOPS\BRIEFS\BRIEF_6\simpl_ToDoList\Application\simpl_ToDoList\Application\simpl_ToDoList.api\bin\Debug\net7.0\Simpl_ToDoList.Business.Service.dll
+C:\Users\Rasol\OneDrive\Documents\CDA_DEVOPS\BRIEFS\BRIEF_6\simpl_ToDoList\Application\simpl_ToDoList\Application\simpl_ToDoList.api\bin\Debug\net7.0\Simpl_ToDoList.Business.Mapper.pdb
+C:\Users\Rasol\OneDrive\Documents\CDA_DEVOPS\BRIEFS\BRIEF_6\simpl_ToDoList\Application\simpl_ToDoList\Application\simpl_ToDoList.api\bin\Debug\net7.0\Simpl_ToDoList.Business.Models.pdb
+C:\Users\Rasol\OneDrive\Documents\CDA_DEVOPS\BRIEFS\BRIEF_6\simpl_ToDoList\Application\simpl_ToDoList\Application\simpl_ToDoList.api\bin\Debug\net7.0\Simpl_ToDoList.Business.Service.Contrat.pdb
+C:\Users\Rasol\OneDrive\Documents\CDA_DEVOPS\BRIEFS\BRIEF_6\simpl_ToDoList\Application\simpl_ToDoList\Application\simpl_ToDoList.api\bin\Debug\net7.0\Simpl_ToDoList.Business.Service.pdb
