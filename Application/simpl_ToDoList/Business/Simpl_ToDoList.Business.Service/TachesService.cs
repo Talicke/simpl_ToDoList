@@ -27,7 +27,12 @@ namespace Simpl_ToDoList.Business.Service
 
             return _mapper.Map<List<ReadTachesDTO>>(taches);
         }
-        
+        public async Task<List<ReadTachesDTO>> GetTachesByStatus(int Idstatus)
+        {
+            var taches = await _tachesRepository.GetTachesByStatusAsync(Idstatus).ConfigureAwait(false);
+
+            return _mapper.Map<List<ReadTachesDTO>>(taches);
+        }
 
         public async Task<ReadTachesDTO> CreateTachesAsync(CreateTachesDTO tachescreate)
         {

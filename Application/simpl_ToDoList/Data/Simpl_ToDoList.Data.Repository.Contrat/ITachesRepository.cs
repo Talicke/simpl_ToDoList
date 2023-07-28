@@ -9,6 +9,6 @@ namespace simpl_ToDoList.Data.Repository.Contrat
 {
     public interface ITachesRepository : IGenericRepository<Tache>
     {
-        Task<List<Tache>> GetTachesByStatusAsync(string status);
+        Task<List<Tache>> GetTachesByStatusAsync(int Idstatus);
     }
 }

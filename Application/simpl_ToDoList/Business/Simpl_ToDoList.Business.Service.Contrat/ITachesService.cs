@@ -13,5 +13,6 @@ namespace Simpl_ToDoList.Business.Service.Contrat
         Task<ReadTachesDTO> CreateTachesAsync(CreateTachesDTO tachescreate);
         Task<ReadTachesDTO> UpdateTachesAsync(int id, CreateTachesDTO tachesUpdate);
         Task<ReadTachesDTO> DeleteTachesAsync(int id);
+        Task<List<ReadTachesDTO>> GetTachesByStatus(int Idstatus);
     }
 }

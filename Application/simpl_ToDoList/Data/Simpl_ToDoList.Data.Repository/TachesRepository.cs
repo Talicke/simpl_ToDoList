@@ -19,9 +19,9 @@ namespace simpl_ToDoList.Data.Repository
             _DbContext = Dbcontext;
         }
 
-        public async Task<List<Tache>> GetTachesByStatusAsync(string status)
+        public async Task<List<Tache>> GetTachesByStatusAsync(int Idstatus)
         {
-            return await _Table.Where(x => x.Status.ToString()== status).ToListAsync().ConfigureAwait(false);
+            return await _Table.Where(x => x.idStatus== Idstatus).ToListAsync().ConfigureAwait(false);
         }
     }
 }

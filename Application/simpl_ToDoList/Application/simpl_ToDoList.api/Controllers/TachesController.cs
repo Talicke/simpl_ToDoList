@@ -29,6 +29,13 @@ namespace simpl_ToDoList.api.Controllers
 
         }
 
+        [HttpGet("ByStatus")]
+        public async Task<ActionResult> GetByStatusAsync([FromQuery]int id)
+        {
+            var taches = await _tachesServices.GetTachesByStatus(id).ConfigureAwait(false);
+            return Ok(taches);
+
+        }
 
         // POST api/<TachesController>
         [HttpPost]
