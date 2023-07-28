@@ -18,9 +18,7 @@ namespace simpl_ToDoList.api.Controllers
         {
             _tachesServices = tachesService;
         }
-            
-            
-            
+              
             
         // GET: api/<TachesController>
         [HttpGet]

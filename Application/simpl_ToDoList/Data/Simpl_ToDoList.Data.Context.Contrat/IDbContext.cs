@@ -16,7 +16,6 @@ namespace simpl_ToDoList.Data.Context.Contrat
         int SaveChanges(bool AcceptAllChangesOnSucces);
         Task<int> SaveChangeAsync(CancellationToken cancellationToken = default);
         Task<int> SaveChangeAsync(bool AcceptAllChangesOnSucces, CancellationToken cancellationToken = default);
-        DatabaseFacade DatabaseFacade { get; }
         DbSet<TEntity> Set<TEntity>() where TEntity : class;
         EntityEntry<TEntity> Entry<TEntity>([NotNull] TEntity entity) where TEntity : class;
         EntityEntry<TEntity> Attach<TEntity>([NotNull] TEntity entity) where TEntity : class;

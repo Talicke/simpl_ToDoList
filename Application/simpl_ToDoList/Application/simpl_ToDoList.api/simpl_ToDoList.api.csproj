@@ -24,7 +24,7 @@
     <ProjectReference Include="..\..\Data\simpl_ToDoList.Data.Entity\simpl_ToDoList.Data.Entity.csproj" />
     <ProjectReference Include="..\..\Data\Simpl_ToDoList.Data.Repository.Contrat\simpl_ToDoList.Data.Repository.Contrat.csproj" />
     <ProjectReference Include="..\..\Data\Simpl_ToDoList.Data.Repository\simpl_ToDoList.Data.Repository.csproj" />
-    <ProjectReference Include="..\..\simpl_ToDoListe.Data.Context\simpl_ToDoListe.Data.Context.csproj" />
+    <ProjectReference Include="..\..\simpl_ToDoListe.Data.Context\simpl_ToDoList.Data.Context.csproj" />
   </ItemGroup>
 
 </Project>

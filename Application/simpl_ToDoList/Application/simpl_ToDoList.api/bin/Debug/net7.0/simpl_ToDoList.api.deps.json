@@ -15,11 +15,11 @@
           "Simpl_ToDoList.Business.Service": "1.0.0",
           "Simpl_ToDoList.Business.Service.Contrat": "1.0.0",
           "Swashbuckle.AspNetCore": "6.5.0",
+          "simpl_ToDoList.Data.Context": "1.0.0",
           "simpl_ToDoList.Data.Context.Contrat": "1.0.0",
           "simpl_ToDoList.Data.Entity": "1.0.0",
           "simpl_ToDoList.Data.Repository": "1.0.0",
-          "simpl_ToDoList.Data.Repository.Contrat": "1.0.0",
-          "simpl_ToDoListe.Data.Context": "1.0.0"
+          "simpl_ToDoList.Data.Repository.Contrat": "1.0.0"
         },
         "runtime": {
           "simpl_ToDoList.api.dll": {}
@@ -300,6 +300,15 @@
           "Simpl_ToDoList.Business.Service.Contrat.dll": {}
         }
       },
+      "simpl_ToDoList.Data.Context/1.0.0": {
+        "dependencies": {
+          "simpl_ToDoList.Data.Context.Contrat": "1.0.0",
+          "simpl_ToDoList.Data.Entity": "1.0.0"
+        },
+        "runtime": {
+          "simpl_ToDoList.Data.Context.dll": {}
+        }
+      },
       "simpl_ToDoList.Data.Context.Contrat/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "7.0.9",
@@ -333,15 +342,6 @@
         },
         "runtime": {
           "simpl_ToDoList.Data.Repository.Contrat.dll": {}
-        }
-      },
-      "simpl_ToDoListe.Data.Context/1.0.0": {
-        "dependencies": {
-          "simpl_ToDoList.Data.Context.Contrat": "1.0.0",
-          "simpl_ToDoList.Data.Entity": "1.0.0"
-        },
-        "runtime": {
-          "simpl_ToDoListe.Data.Context.dll": {}
         }
       }
     }
@@ -596,6 +596,11 @@
       "serviceable": false,
       "sha512": ""
     },
+    "simpl_ToDoList.Data.Context/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "simpl_ToDoList.Data.Context.Contrat/1.0.0": {
       "type": "project",
       "serviceable": false,
@@ -612,11 +617,6 @@
       "sha512": ""
     },
     "simpl_ToDoList.Data.Repository.Contrat/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "simpl_ToDoListe.Data.Context/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

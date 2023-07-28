@@ -3,7 +3,7 @@ using simpl_ToDoList.Data.Entity;
 using simpl_ToDoList.Data.Context.Contrat;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 
-namespace simpl_ToDoListe.Data.Context
+namespace simpl_ToDoList.Data.Context
 {
     public class simpl_ToDoListDBContect :DbContext, Isimpl_ToDoListDBContect
     {
@@ -22,16 +22,14 @@ namespace simpl_ToDoListe.Data.Context
         public virtual DbSet<Tache> Taches { get; set; }
         public virtual DbSet<Status> Statuss { get; set; }
 
-        public DatabaseFacade DatabaseFacade => throw new NotImplementedException();
-
-        public Task<int> SaveChangeAsync(CancellationToken cancellationToken = default)
+        public async Task<int> SaveChangeAsync(CancellationToken cancellationToken = default)
         {
-            throw new NotImplementedException();
+            return await SaveChangesAsync(cancellationToken);
         }
 
-        public Task<int> SaveChangeAsync(bool AcceptAllChangesOnSucces, CancellationToken cancellationToken = default)
+        public async Task<int> SaveChangeAsync(bool AcceptAllChangesOnSucces, CancellationToken cancellationToken = default)
         {
-            throw new NotImplementedException();
+            return await SaveChangesAsync(cancellationToken);
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

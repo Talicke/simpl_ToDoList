@@ -584,6 +584,20 @@
           "bin/placeholder/Simpl_ToDoList.Business.Service.Contrat.dll": {}
         }
       },
+      "simpl_ToDoList.Data.Context/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "simpl_ToDoList.Data.Context.Contrat": "1.0.0",
+          "simpl_ToDoList.Data.Entity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/simpl_ToDoList.Data.Context.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/simpl_ToDoList.Data.Context.dll": {}
+        }
+      },
       "simpl_ToDoList.Data.Context.Contrat/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -637,20 +651,6 @@
         },
         "runtime": {
           "bin/placeholder/simpl_ToDoList.Data.Repository.Contrat.dll": {}
-        }
-      },
-      "simpl_ToDoListe.Data.Context/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "dependencies": {
-          "simpl_ToDoList.Data.Context.Contrat": "1.0.0",
-          "simpl_ToDoList.Data.Entity": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/simpl_ToDoListe.Data.Context.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/simpl_ToDoListe.Data.Context.dll": {}
         }
       }
     }
@@ -1716,6 +1716,11 @@
       "path": "../../Business/Simpl_ToDoList.Business.Service.Contrat/Simpl_ToDoList.Business.Service.Contrat.csproj",
       "msbuildProject": "../../Business/Simpl_ToDoList.Business.Service.Contrat/Simpl_ToDoList.Business.Service.Contrat.csproj"
     },
+    "simpl_ToDoList.Data.Context/1.0.0": {
+      "type": "project",
+      "path": "../../simpl_ToDoListe.Data.Context/simpl_ToDoList.Data.Context.csproj",
+      "msbuildProject": "../../simpl_ToDoListe.Data.Context/simpl_ToDoList.Data.Context.csproj"
+    },
     "simpl_ToDoList.Data.Context.Contrat/1.0.0": {
       "type": "project",
       "path": "../../Data/Simpl_ToDoList.Data.Context.Contrat/simpl_ToDoList.Data.Context.Contrat.csproj",
@@ -1735,11 +1740,6 @@
       "type": "project",
       "path": "../../Data/Simpl_ToDoList.Data.Repository.Contrat/simpl_ToDoList.Data.Repository.Contrat.csproj",
       "msbuildProject": "../../Data/Simpl_ToDoList.Data.Repository.Contrat/simpl_ToDoList.Data.Repository.Contrat.csproj"
-    },
-    "simpl_ToDoListe.Data.Context/1.0.0": {
-      "type": "project",
-      "path": "../../simpl_ToDoListe.Data.Context/simpl_ToDoListe.Data.Context.csproj",
-      "msbuildProject": "../../simpl_ToDoListe.Data.Context/simpl_ToDoListe.Data.Context.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -1751,11 +1751,11 @@
       "Simpl_ToDoList.Business.Service >= 1.0.0",
       "Simpl_ToDoList.Business.Service.Contrat >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.5.0",
+      "simpl_ToDoList.Data.Context >= 1.0.0",
       "simpl_ToDoList.Data.Context.Contrat >= 1.0.0",
       "simpl_ToDoList.Data.Entity >= 1.0.0",
       "simpl_ToDoList.Data.Repository >= 1.0.0",
-      "simpl_ToDoList.Data.Repository.Contrat >= 1.0.0",
-      "simpl_ToDoListe.Data.Context >= 1.0.0"
+      "simpl_ToDoList.Data.Repository.Contrat >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1816,8 +1816,8 @@
             "C:\\Users\\Rasol\\OneDrive\\Documents\\CDA_DEVOPS\\BRIEFS\\BRIEF_6\\simpl_ToDoList\\Application\\simpl_ToDoList\\Data\\Simpl_ToDoList.Data.Repository\\simpl_ToDoList.Data.Repository.csproj": {
               "projectPath": "C:\\Users\\Rasol\\OneDrive\\Documents\\CDA_DEVOPS\\BRIEFS\\BRIEF_6\\simpl_ToDoList\\Application\\simpl_ToDoList\\Data\\Simpl_ToDoList.Data.Repository\\simpl_ToDoList.Data.Repository.csproj"
             },
-            "C:\\Users\\Rasol\\OneDrive\\Documents\\CDA_DEVOPS\\BRIEFS\\BRIEF_6\\simpl_ToDoList\\Application\\simpl_ToDoList\\simpl_ToDoListe.Data.Context\\simpl_ToDoListe.Data.Context.csproj": {
-              "projectPath": "C:\\Users\\Rasol\\OneDrive\\Documents\\CDA_DEVOPS\\BRIEFS\\BRIEF_6\\simpl_ToDoList\\Application\\simpl_ToDoList\\simpl_ToDoListe.Data.Context\\simpl_ToDoListe.Data.Context.csproj"
+            "C:\\Users\\Rasol\\OneDrive\\Documents\\CDA_DEVOPS\\BRIEFS\\BRIEF_6\\simpl_ToDoList\\Application\\simpl_ToDoList\\simpl_ToDoListe.Data.Context\\simpl_ToDoList.Data.Context.csproj": {
+              "projectPath": "C:\\Users\\Rasol\\OneDrive\\Documents\\CDA_DEVOPS\\BRIEFS\\BRIEF_6\\simpl_ToDoList\\Application\\simpl_ToDoList\\simpl_ToDoListe.Data.Context\\simpl_ToDoList.Data.Context.csproj"
             }
           }
         }

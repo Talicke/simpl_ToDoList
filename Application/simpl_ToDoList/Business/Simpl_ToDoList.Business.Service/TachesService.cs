@@ -13,8 +13,8 @@ namespace Simpl_ToDoList.Business.Service
 {
     public class TachesService : ITachesService
     {
-        private ITachesRepository _tachesRepository;
-        private  IMapper _mapper;
+        private readonly ITachesRepository _tachesRepository;
+        private readonly IMapper _mapper;
 
         public TachesService(ITachesRepository tachesRepository, IMapper mapper)
         {
@@ -23,10 +23,11 @@ namespace Simpl_ToDoList.Business.Service
         }
         public async Task<List<ReadTachesDTO>> GetTaches()
         {
-            var taches = _tachesRepository.SelecAllAsync().ConfigureAwait(false);
-            return _mapper.Map<List<ReadTachesDTO>>(taches);
+            var taches = await _tachesRepository.SelecAllAsync().ConfigureAwait(false);
 
+            return _mapper.Map<List<ReadTachesDTO>>(taches);
         }
+        
 
         public async Task<ReadTachesDTO> CreateTachesAsync(CreateTachesDTO tachescreate)
         {

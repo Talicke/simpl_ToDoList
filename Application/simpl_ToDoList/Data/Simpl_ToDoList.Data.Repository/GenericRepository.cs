@@ -17,7 +17,7 @@ namespace simpl_ToDoList.Data.Repository
         public GenericRepository(Isimpl_ToDoListDBContect Dbcontext)
         {
             _DbContext = Dbcontext;
-            _Table: Dbcontext.Set<T>();
+            _Table= Dbcontext.Set<T>();
         }
 
         public async Task<T> Creer(T newEntity)

@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "simpl_ToDoList.api", "Appli
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "simpl_ToDoList.Data.Entity", "Data\simpl_ToDoList.Data.Entity\simpl_ToDoList.Data.Entity.csproj", "{51A38F4A-ED33-4F96-BAF2-001772B5DED1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "simpl_ToDoListe.Data.Context", "simpl_ToDoListe.Data.Context\simpl_ToDoListe.Data.Context.csproj", "{35A82F04-B74F-4327-9A41-46DC08A710C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "simpl_ToDoList.Data.Context", "simpl_ToDoListe.Data.Context\simpl_ToDoList.Data.Context.csproj", "{35A82F04-B74F-4327-9A41-46DC08A710C9}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "simpl_ToDoList.Data.Context.Contrat", "Data\Simpl_ToDoList.Data.Context.Contrat\simpl_ToDoList.Data.Context.Contrat.csproj", "{0D300BF6-79C0-4736-A1D3-A5A49F0C919B}"
 EndProject
