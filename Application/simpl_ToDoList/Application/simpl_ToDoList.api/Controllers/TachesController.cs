@@ -39,5 +39,23 @@ namespace simpl_ToDoList.api.Controllers
 
         }
 
+        // PUT api/<TachesController>
+        [HttpPut]
+        public async Task<ActionResult> UpdateAsync([FromBody] CreateTachesDTO tachescreate, int id)
+        {
+            var tache = await _tachesServices.UpdateTachesAsync(id,tachescreate).ConfigureAwait(false);
+            return Ok(tache);
+
+        }
+
+
+        // PUT api/<TachesController>
+        [HttpDelete]
+        public async Task<ActionResult> DeleteAsync(int id)
+        {
+            var tache = await _tachesServices.DeleteTachesAsync(id).ConfigureAwait(false);
+            return Ok(tache);
+        }
+
     }
 }

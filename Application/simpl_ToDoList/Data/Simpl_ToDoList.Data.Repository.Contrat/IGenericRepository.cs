@@ -41,7 +41,7 @@ namespace simpl_ToDoList.Data.Repository.Contrat
         /// </summary>
         /// <param name="identity">Identifiant de l'entity</param>
         /// <returns></returns>
-        Task<T> SelecAvecId(int identity);
+        Task<T> SelecAvecId(object idEntity);
 
     }
 }

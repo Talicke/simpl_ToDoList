@@ -43,17 +43,14 @@ namespace simpl_ToDoList.Data.Repository
 
         public async Task<T> SelecAvecId(object idEntity)
         {
-            return await _Table.FindAsync(idEntity).ConfigureAwait(false);
-        }
 
-        public Task<T> SelecAvecId(int identity)
-        {
-            throw new NotImplementedException();
+            return await _Table.FindAsync(idEntity).ConfigureAwait(false);
         }
 
         public async Task<T> Supprimer(T supprEntity)
         {
             var EntityDeleted = _Table.Remove(supprEntity);
+
             await _DbContext.SaveChangeAsync().ConfigureAwait(false);
 
             return EntityDeleted.Entity;

@@ -38,5 +38,53 @@ namespace Simpl_ToDoList.Business.Service
             return _mapper.Map<ReadTachesDTO>(tachesCreated);
 
         }
+
+        public async Task<ReadTachesDTO> UpdateTachesAsync(int id, CreateTachesDTO tachesUpdate)
+        {
+            var taches = _mapper.Map<Tache>(tachesUpdate);
+
+            if (tachesUpdate == null)
+            {
+                throw new ArgumentNullException(nameof(tachesUpdate));
+            }
+
+            var TAcheExist = await _tachesRepository.SelecAvecId(id).ConfigureAwait(false);
+
+            if (TAcheExist == null)
+            {
+                throw new Exception($"Il n'existe aucun produit avec cet identifiant : {id}");
+            }
+
+
+            TAcheExist.DueDatetache= tachesUpdate.DueDatetache;
+            TAcheExist.CreatedDatetache = tachesUpdate.CreatedDatetache;
+            TAcheExist.title = tachesUpdate.title;
+            TAcheExist.DesTache= tachesUpdate.DesTache;
+            TAcheExist.idStatus = tachesUpdate.idStatus;
+            TAcheExist.idUser = tachesUpdate.idUser;
+
+            //var ClientModifier = ClientMapper.TransformLireClientDTOtoEntity(clientExist);
+            var tachesUpdated = await _tachesRepository.Modifier(TAcheExist).ConfigureAwait(false);
+
+            return _mapper.Map<ReadTachesDTO>(tachesUpdated);
+
+        }
+
+
+        public async Task<ReadTachesDTO> DeleteTachesAsync(int id)
+        {
+            var TAcheExist = await _tachesRepository.SelecAvecId(id).ConfigureAwait(false);
+
+            if (TAcheExist == null)
+            {
+                throw new Exception($"Il n'existe aucun produit avec cet identifiant : {id}");
+            }
+
+            //var ClientModifier = ClientMapper.TransformLireClientDTOtoEntity(clientExist);
+            var tachesSuppr= await _tachesRepository.Supprimer(TAcheExist).ConfigureAwait(false);
+
+            return _mapper.Map<ReadTachesDTO>(tachesSuppr);
+
+        }
     }
 }
